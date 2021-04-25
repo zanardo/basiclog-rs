@@ -1,5 +1,7 @@
 use std::io::Write;
 
+pub use log::{debug, error, info, trace, warn};
+
 pub fn init() {
     env_logger::Builder::new()
         .format(|buf, record| {
