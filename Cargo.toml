@@ -1,0 +1,15 @@
+[package]
+name = "basiclog"
+version = "0.1.0"
+authors = ["Antonio Zanardo <zanardo@gmail.com>"]
+edition = "2018"
+license-file = "COPYING"
+description = "A simple logging boilerplate for my needs"
+homepage = "https://github.com/zanardo/basiclog-rs"
+repository = "https://github.com/zanardo/basiclog-rs"
+readme = "README.md"
+
+[dependencies]
+log = "0.4.0"
+env_logger = "0.8.3"
+chrono = "0.4.19"
