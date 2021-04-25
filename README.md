@@ -23,5 +23,5 @@ info!("This is a test!");
 Output:
 
 ```
-2021-04-25 [INF] - This is a test!
+2021-04-25 11:14:12 [INF] - This is a test!
 ```
