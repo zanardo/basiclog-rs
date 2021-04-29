@@ -7,8 +7,8 @@ pub fn init() {
         .format(|buf, record| {
             writeln!(
                 buf,
-                "{} [{:.3}] - {}",
-                chrono::Local::now().format("%Y-%m-%d %H:%M:%S"),
+                "{} {:.3} | {}",
+                chrono::Local::now().format("%Y/%m/%d %H:%M:%S%.3f"),
                 record.level(),
                 record.args()
             )
